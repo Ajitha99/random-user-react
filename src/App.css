@@ -1,38 +1,66 @@
 .App {
+
   text-align: center;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header{
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  color: whitesmoke;
+  background-color: rgb(44, 43, 43);
+  height:80px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button{
+  width: 160px;
+  height: 40px;
+  font-size: larger;
+  font-weight: bolder;
+  border-radius: .3em;
+  margin:20px;
+}
+button:hover{
+  width:165px;
+  height:45px;
+  background-color: gray;
+  color: whitesmoke;
+}
+.userSummary-div1{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;  
 }
-
-.App-link {
-  color: #61dafb;
+.first-output{
+  /* border: 1px solid whitesmoke; */
+  color: whitesmoke;
+  width:600px;
+  height:190px;
+  background-color: rgb(57, 52, 52);
+  border: 1px solid whitesmoke;
+  border-radius: .5em;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.more-info-p{
+  margin-top: 20px;
+  border: 1px solid whitesmoke;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  color: whitesmoke;
+  background-color: rgb(57, 52, 52);
+  border-radius: .5em;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+}
+.more-info-pic{
+  border: 1px solid whitesmoke;
+  margin: 30px;
+  border-radius: .3em;
+  box-shadow: 3px 5px 4px #888888;
+}
+span{
+  text-decoration: underline;
 }
