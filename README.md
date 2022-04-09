@@ -1,3 +1,5 @@
+### netlify link: https://startling-kangaroo-b8b7b0.netlify.app
+
 ### Random User App
     Introduction In this exercise, you will build a react app that fetches a random user from an api and displays the user information in a user detail component. The user detail component will have a button for toggling less/more views of the user data
 
